@@ -40,5 +40,5 @@ A **Spring Boot** application for managing a collection of books, built with **J
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cleberdasilva/book-register.git
-   cd book-register# bookregister
+   https://github.com/cleberdasilva/bookregister.git
+   cd bookregister
