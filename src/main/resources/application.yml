@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/booksdb
+      database: booksdb
+  graphql:
+    path: /graphql
+    graphiql:
+      enabled: true
+      path: /graphiql
+server:
+  port: 8080
