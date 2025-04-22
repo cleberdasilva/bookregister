@@ -45,6 +45,7 @@ public class BookController {
         book.setArea(bookInput.area());
         book.setBookSummary(bookInput.bookSummary());
         book.setYearOfPublication(bookInput.yearOfPublication());
+        book.setTimesRead(bookInput.timesRead());
         return bookService.createBook(book);
     }
 
@@ -59,6 +60,7 @@ public class BookController {
         book.setArea(bookInput.area());
         book.setBookSummary(bookInput.bookSummary());
         book.setYearOfPublication(bookInput.yearOfPublication());
+        book.setTimesRead(bookInput.timesRead());
         return bookService.updateBook(id, book).orElse(null);
     }
 
@@ -76,8 +78,10 @@ public class BookController {
             String bookSubject,
             String area,
             String bookSummary,
-            int yearOfPublication
-    ) {}
+            int yearOfPublication,
+            int timesRead
+    ) {
+    }
 
     @GetMapping("/health")
     public String healthCheck() {

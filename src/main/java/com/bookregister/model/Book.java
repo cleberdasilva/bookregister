@@ -19,4 +19,5 @@ public class Book {
     private String area;
     private String bookSummary;
     private int yearOfPublication;
+    private int timesRead;
 }
