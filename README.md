@@ -20,7 +20,7 @@ A **Spring Boot** application for managing a collection of books, built with **J
 ## Technologies Used 🛠️
 
 - **Java 17**
-- **Spring Boot 3.x**
+- **Spring Boot 3.4.4**
 - **MongoDB**
 - **GraphQL**
 - **Lombok**
